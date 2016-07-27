@@ -59,12 +59,3 @@ var seatac = new StoreLocation('SeaTac Airport' , 3 , 24 , 1.2);
 var center = new StoreLocation('Seattle Center' , 11 , 38 , 3.7);
 var capitol = new StoreLocation('Capitol Hill' , 20 , 38 , 2.3);
 var alkibeach = new StoreLocation('Alki' , 2 , 16 , 4.6);
-// alki.calcCustEachHour();
-// alki.calcCookiesEachHour();
-// alki.render();
-//
-// console.log('First And Pike', pike);
-// console.log('SeaTac Airport ', seatac);
-// console.log('Seattle Center ', center);
-// console.log('Capitol Hill', capitol);
-// console.log('Alki', alkibeach);
