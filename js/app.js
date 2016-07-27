@@ -36,13 +36,13 @@ function StoreLocation(storeName, minCustPerHour, maxCustPerHour, avgCookiesPerC
   };
 
   this.render = function() {
-    var seattleCenterList = document.getElementById('seattleCenter');
+    var seattleCenterList = document.getElementById('pike');
     for (var i = 0; i < hours.length; i++){
       var listElementOne = document.createElement('li');
       listElementOne.textContent = hours[i] + ': ' + this.cookiesEachHourArray[i] + ' cookies';
       seattleCenterList.appendChild(listElementOne);
     }
-    document.body.appendChild(seattleCenterList);
+    // document.body.appendChild(seattleCenterList);
     var seattleCenterTotal = document.createElement('li');
     seattleCenterTotal.textContent = 'Total: ' + this.totalDailyCookiesSale + ' cookies';
     seattleCenterList.appendChild(seattleCenterTotal);
