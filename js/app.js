@@ -130,3 +130,5 @@ function makeTotalsRow() {
 }
 
 function handleNewLocationSubmit(event){
+
+  //when learning code try to identify what every line is doing... 
