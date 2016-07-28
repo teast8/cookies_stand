@@ -60,15 +60,28 @@ var center = new StoreLocation('Seattle Center' , 11 , 38 , 3.7);
 var capitol = new StoreLocation('Capitol Hill' , 20 , 38 , 2.3);
 var alkibeach = new StoreLocation('Alki' , 2 , 16 , 4.6);
 
-function makeTableHeader() {
-  var tab = document.getElementById('storeTable');
-  var tablerow = document.createElement('tr');
+// function makeTableHeader() {
+//   var tab = document.getElementById('storeTable');
+//   var tablerow = document.createElement('tr');
+//   for (var i = 0; i < hours.length; i++){
+//     var tableheader = document.createElement('th');
+//     tableheader.textContent = hours[i];
+//     tablerow.appendChild(tableheader);
+//   }
+//   tab.appendChild(tablerow);
+// }
+//
+// makeTableHeader();
+var piketable = document.getElementById('storeTable');
+
+function makeHeaderRow() {
+  var tableRow = document.createElement('tr');
   for (var i = 0; i < hours.length; i++){
-    var tableheader = document.createElement('th');
-    tableheader.textContent = hours[i];
-    tablerow.appendChild(tableheader);
+    var thElement = document.createElement('th');
+    thElement.textContent = hours[i];
+    tablerow.appendChild(thElement);
   }
-  tab.appendChild(tablerow);
+  makeHeaderRow.appendChild(tablerow);
 }
 
-makeTableHeader();
+makeHeaderRow();
