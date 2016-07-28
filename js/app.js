@@ -31,7 +31,7 @@ function StoreLocation(storeName, minCustPerHour, maxCustPerHour, avgCookiesPerC
   };
 
   this.calcCookiesEachHour = function() {
-    //This method will use the array of customers for each hour, multiply each of the those hourly values by the average cookies per customer, and generate an array of hourly cookie sales
+    //This method will use the array of customers for each hour, multiply each of the those hourly values by the average cookies per customer, and generate an array of hourly cookie sales...
     for (var i = 0; i < hours.length; i++) {
       var singleHourCookies = Math.ceil(this.custEachHourArray[i] * this.avgCookiesPerCust);
       this.cookiesEachHourArray.push(singleHourCookies);
