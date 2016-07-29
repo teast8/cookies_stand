@@ -6,5 +6,21 @@ td {
 
 }
 th {
-  background-color: yellow;
+  background-color: grey;
 }
+body {
+  background-color: ##1A52C9;
+}
+header {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  background-color: ##1A52C9;
+  width: 100%;
+  padding: 5px;
+  font-size: ;
+  display: block;
+  text-align: center;
+  color: black;
+}
+
+    
