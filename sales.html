@@ -6,6 +6,31 @@
     <title></title>
   </head>
   <body>
+    <header>
+      <h1>Salmon Cookies</h1>
+    </header>
+    <img src="img/salmon.png">
+    <form id= "newLocationForm">
+      <fieldset>
+        <legend>Add a new location</legend>
+
+        <label for="newLocationName">Location: </label>
+        <input name="newLocationName" type="text" required/>
+
+        <label for="minCustomer">Minimum Customers: </label>
+        <input name="minCustomer" type="number" required/>
+
+        <label for="maxCustomer">Maximum Customers: </label>
+        <input name="maxCustomer" type="number" required/>
+
+        <label for="averageCookies">Average Cookies: </label>
+        <input name="averageCookies" type="float" required/>
+
+        <button type="submit">Create new store location!</button>
+      </fieldset>
+    </form>
+
+    </form>
     <table id="storeTable"></table>
     <script src="js/app.js" charset="utf-8"></script>
   </body>
