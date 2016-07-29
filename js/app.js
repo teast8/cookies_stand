@@ -100,6 +100,14 @@ function makeAllStoreRows() {
 };
 makeAllStoreRows();
 
+// function makeTotalsRow () {
+//   for (var store = 0; store < storeLocations.length; store++) {
+//       totalForEachHour = totalForEachHour + storeLocation[store].cookiesSoldEachHour[i];
+//       globalDailyTotal += myStores[store].cookiesSoldEachHour[i];
+//     }
+// 
+// }
+
   //
   // var tableRow = document.createElement('tr');
   // var thElement = document.createElement('th');
