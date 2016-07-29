@@ -45,8 +45,6 @@ var center = new StoreLocation('Seattle Center' , 11 , 38 , 3.7);
 var capitol = new StoreLocation('Capitol Hill' , 20 , 38 , 2.3);
 var alkibeach = new StoreLocation('Alki' , 2 , 16 , 4.6);
 
-
-
 // CREATE THE TABLE HEADER
 function makeHeaderRow() {
   // GRAB THE TABLE ID FROM THE HTML
@@ -101,7 +99,6 @@ function makeAllStoreRows() {
   }
 };
 makeAllStoreRows();
-
 
   //
   // var tableRow = document.createElement('tr');
