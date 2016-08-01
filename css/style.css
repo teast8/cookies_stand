@@ -22,6 +22,6 @@ header {
   text-align: center;
   color: black;
 }
-img {
-  background-position: center;
+html {
+  display: block;
 }
